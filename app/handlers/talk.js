@@ -13,7 +13,6 @@ import { getPrompt, setPrompt } from '../prompt/index.js';
 const check = (context) => (
   context.hasCommand(COMMAND_BOT_TALK)
   || context.hasBotName
-  || context.source.bot.isActivated
 );
 
 /**
