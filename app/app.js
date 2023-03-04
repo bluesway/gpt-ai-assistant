@@ -7,14 +7,16 @@ import {
   deployHandler,
   docHandler,
   drawHandler,
+  forgetHandler,
   enquireHandler,
   reportHandler,
   retryHandler,
+  searchHandler,
   talkHandler,
   versionHandler,
 } from './handlers/index.js';
 import Context from './context.js';
-import Event from './event.js';
+import Event from './models/event.js';
 
 /**
  * @param {Context} context
@@ -28,9 +30,11 @@ const handleContext = async (context) => (
   || deployHandler(context)
   || docHandler(context)
   || drawHandler(context)
+  || forgetHandler(context)
   || enquireHandler(context)
   || reportHandler(context)
   || retryHandler(context)
+  || searchHandler(context)
   || versionHandler(context)
   || talkHandler(context)
   || context

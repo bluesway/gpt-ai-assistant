@@ -1,5 +1,154 @@
 # Changelog
 
+## 4.0.4 (2023-03-03)
+
+### Bug Fixes
+
+- Optimize `search` command
+
+## 4.0.3 (2023-03-03)
+
+### Bug Fixes
+
+- Optimize `search` and `draw` commands
+
+## 4.0.2 (2023-03-02)
+
+### Bug Fixes
+
+- Fix prompt messages
+
+## 4.0.1 (2023-03-02)
+
+### Bug Fixes
+
+- Fix `enquire` command
+
+## 4.0.0 (2023-03-02)
+
+### New Features
+
+- Support `gpt-3.5-turbo` model
+
+### Bug Fixes
+
+- Rename `APP_MAX_PROMPT_SENTENCES` environment variable to `APP_MAX_PROMPT_MESSAGES`
+
+## 3.7.0 (2023-02-26)
+
+### New Features
+
+- Add demo for `search` command
+- Add `SERPAPI_LOCATION` environment variable
+- Add `SERPAPI_LANG` environment variable
+
+## 3.6.0 (2023-02-26)
+
+### New Features
+
+- Add `APP_API_TIMEOUT` environment variable
+- Add `APP_MAX_PROMPT_SENTENCES` environment variable
+- Add `APP_MAX_PROMPT_TOKENS` environment variable
+
+## 3.5.0 (2023-02-26)
+
+### New Features
+
+- Rename `HUMAN_BACKGROUND` environment variable to `HUMAN_INIT_PROMPT`
+- Rename `BOT_BACKGROUND` environment variable to `BOT_INIT_PROMPT`
+
+## 3.4.1 (2023-02-25)
+
+### Bug Fixes
+
+- Fix default bot name
+
+## 3.4.0 (2023-02-24)
+
+### New Features
+
+- Add `info` endpoint
+
+## 3.3.5 (2023-02-24)
+
+### Bug Fixes
+
+- Fix prompt wording
+
+## 3.3.4 (2023-02-24)
+
+### Bug Fixes
+
+- Fix prompt wording
+
+## 3.3.3 (2023-02-24)
+
+### Bug Fixes
+
+- Fix tests
+
+## 3.3.2 (2023-02-23)
+
+### Bug Fixes
+
+- Fix prompt wording
+
+## 3.3.1 (2023-02-23)
+
+### Bug Fixes
+
+- Fix prompt wording
+
+## 3.3.0 (2023-02-23)
+
+### New Features
+
+- Add `BOT_TONE` environment variable
+
+## 3.2.1 (2023-02-22)
+
+### Bug Fixes
+
+- Fix timeout wording
+
+## 3.2.0 (2023-02-22)
+
+### New Features
+
+- Add `HUMAN_NAME` environment variable
+- Add `HUMAN_BACKGROUND` environment variable
+- Add `BOT_BACKGROUND` environment variable
+
+## 3.1.0 (2023-02-21)
+
+### New Features
+
+- Implement `forget` command
+
+## 3.0.0 (2023-02-18)
+
+### New Features
+
+- Implement `search` command
+
+## 2.5.1 (2023-02-18)
+
+### New Features
+
+- Rename `BOT_TIMEOUT_DISABLED` environment variable to `ERROR_TIMEOUT_DISABLED`
+
+## 2.5.0 (2023-02-18)
+
+### New Features
+
+- Add `BOT_TIMEOUT_DISABLED` environment variable
+
+## 2.4.0 (2023-02-17)
+
+### New Features
+
+- Add `BOT_DEACTIVATED` environment variable
+
 ## 2.3.0 (2023-02-11)
 
 ### New Features
